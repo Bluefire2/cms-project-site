@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import "./Intro.css";
 
 export default () => {
     return (
