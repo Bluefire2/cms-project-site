@@ -86,19 +86,3 @@ h1#cms-header {
         font-size: 4.5rem;
     }
 }
-
-div#teams {
-    background-color: var(--cms-primary);
-}
-
-div.team-member {
-    /*border: 3px solid var(--cms-ternary-light);*/
-    /*border-radius: 5px;*/
-    color: lightgray;
-    /*background-color: var(--cms-secondary-light);*/
-}
-
-div.team-member img.portrait {
-    border: 3px solid var(--cms-ternary);
-    max-width: 100%; /* let the image only be as wide as the parent div*/
-}
