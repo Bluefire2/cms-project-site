@@ -1,0 +1,23 @@
+{
+  "name": "cms-project-site",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://bluefire2.github.io/cms-project-site",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.1.1",
+    "bootstrap": "^4.1.2",
+    "bootstrap-social": "^5.1.1",
+    "jquery": "^3.3.1",
+    "md5": "^2.2.1",
+    "popper.js": "^1.14.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

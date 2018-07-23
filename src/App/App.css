@@ -1,0 +1,109 @@
+:root {
+    --cms-primary: #b42025;
+    --cms-primary-light: #c9252c;
+    --cms-primary-dark: #941619;
+    --cms-secondary: #1d86c8;
+    --cms-secondary-light: #27aae1;
+    --cms-secondary-dark: #16689c;
+    --cms-ternary: #6d6e71;
+    --cms-ternary-light: #bcbec0;
+    --cms-ternary-dark: #414042;
+}
+
+html,
+body {
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+body {
+    padding-top: 56px;
+}
+
+.bg-cms-primary {
+    background-color: var(--cms-primary);
+}
+
+.bg-cms-secondary {
+    background-color: var(--cms-secondary);
+}
+
+.bg-cms-ternary-light {
+    background-color: var(--cms-ternary-light);
+}
+
+.text-white-50 {
+    color: rgba(255, 255, 255, .5);
+}
+
+.bg-purple {
+    background-color: #6f42c1;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.lh-100 {
+    line-height: 1;
+}
+
+.lh-125 {
+    line-height: 1.25;
+}
+
+.lh-150 {
+    line-height: 1.5;
+}
+
+img#logo-image {
+    width: 2em;
+    height: 2em;
+}
+
+div#brand-container {
+    display: flex;
+    align-items: center;
+}
+
+h1#cms-header {
+    font-size: 1.7rem;
+}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+    h1#cms-header {
+        font-size: 2.7rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    h1#cms-header {
+        font-size: 4.5rem;
+    }
+}
+
+div#intro {
+    background: url("../img/placeholder-bg.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+
+div#teams {
+    background-color: var(--cms-primary);
+}
+
+div.team-member {
+    /*border: 3px solid var(--cms-ternary-light);*/
+    /*border-radius: 5px;*/
+    color: lightgray;
+    /*background-color: var(--cms-secondary-light);*/
+}
+
+div.team-member img.portrait {
+    border: 3px solid var(--cms-ternary);
+    max-width: 100%; /* let the image only be as wide as the parent div*/
+}
