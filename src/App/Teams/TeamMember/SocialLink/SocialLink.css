@@ -1,0 +1,11 @@
+div.social-link {
+
+}
+
+div.social-link > a {
+    color: white;
+}
+
+div.social-link > a:hover {
+    color: var(--cms-secondary-light);
+}
