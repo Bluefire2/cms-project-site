@@ -11,7 +11,7 @@ import portraitPlaceholder from "../img/portrait-placeholder.png";
 
 const teams = [{
     name: "frontend",
-    subheading: "\"If your website doesn't look good, how do you expect to look good? --Bill Gates, 1997\"",
+    subheading: "\"If your website doesn't look good, how do you expect to look good?\" --Bill Gates, 1997",
     members: [
         {
             name: "John Doe",
@@ -28,7 +28,7 @@ const teams = [{
     ]
 }, {
     name: "backend",
-    subheading: "\"It's pronounced see-kwell. --Anonymous\"",
+    subheading: "\"It's pronounced see-kwell.\" --Anonymous",
     members: [
         {
             name: "John Doe",
