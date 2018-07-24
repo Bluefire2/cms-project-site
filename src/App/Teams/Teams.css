@@ -1,3 +1,8 @@
 div#teams {
     background-color: var(--cms-primary);
 }
+
+div.team > h1, div.team > h3 {
+    color: var(--cms-ternary-light);
+    font-weight: lighter;
+}

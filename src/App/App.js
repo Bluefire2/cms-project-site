@@ -11,6 +11,7 @@ import portraitPlaceholder from "../img/portrait-placeholder.png";
 
 const teams = [{
     name: "frontend",
+    subheading: "\"If your website doesn't look good, how do you expect to look good? --Bill Gates, 1997\"",
     members: [
         {name: "John Doe", role: "Team Lead", portrait: portraitPlaceholder},
         {name: "John Doe", role: "Team Lead", portrait: portraitPlaceholder},
