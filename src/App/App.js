@@ -26,6 +26,23 @@ const teams = [{
         {name: "John Doe", role: "Team Lead", portrait: portraitPlaceholder},
         {name: "John Doe", role: "Team Lead", portrait: portraitPlaceholder},
     ]
+}, {
+    name: "backend",
+    subheading: "\"It's pronounced see-kwell. --Anonymous\"",
+    members: [
+        {
+            name: "John Doe",
+            role: "Team Lead",
+            portrait: portraitPlaceholder,
+            github: "https://github.coecis.cornell.edu/CMSX/cmsx",
+            linkedin: "https://www.linkedin.com/company/john-doe/"
+        },
+        {name: "John Doe", role: "Team Lead", portrait: portraitPlaceholder},
+        {name: "John Doe", role: "Team Lead", portrait: portraitPlaceholder},
+        {name: "John Doe", role: "Team Lead", portrait: portraitPlaceholder},
+        {name: "John Doe", role: "Team Lead", portrait: portraitPlaceholder},
+        {name: "John Doe", role: "Team Lead", portrait: portraitPlaceholder},
+    ]
 }];
 
 

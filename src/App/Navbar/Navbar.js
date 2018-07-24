@@ -19,6 +19,8 @@ class Navbar extends Component {
     }
 
     render() {
+        // TODO: make the links work
+        // note that this will need to involve offsetting the page location to make space for the navbar
         return (
             <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-cms-primary">
                 <a className="navbar-brand mx-auto mx-lg-0" href="#">
