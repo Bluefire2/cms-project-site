@@ -1,5 +1,6 @@
 import React from "react";
 import "./SocialLink.css";
+import "@fortawesome/fontawesome-free/css/all.css";
 
 export default ({service, link}) => {
     return (

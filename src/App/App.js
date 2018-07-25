@@ -1,8 +1,6 @@
 import React, {Component} from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap-social/bootstrap-social.css";
-import "@fortawesome/fontawesome-free/css/all.css";
 import Navbar from "./Navbar";
 import Intro from "./Intro";
 import About from "./About";
