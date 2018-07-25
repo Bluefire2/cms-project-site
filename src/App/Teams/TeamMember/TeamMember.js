@@ -13,7 +13,7 @@ export default ({portrait, name, role, github, linkedin}) => {
                     <div className="col-6">
                         <h4>{name}</h4>
                         <h6>{role}</h6>
-                        <ul className="list-inline my-0">
+                        <ul className="list-inline my-2">
                             {typeof github !== "undefined" &&
                             <li className="list-inline-item"><SocialLink service="github" link={github}/></li>}
                             {typeof linkedin !== "undefined" &&
