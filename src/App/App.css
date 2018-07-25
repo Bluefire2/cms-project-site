@@ -89,8 +89,8 @@ h1#cms-header {
 
 /* I hate CSS so much because it makes me do things like this */
 .anchor-offset-section {
-    border-top: 50px solid transparent;
-    margin-top: -30px;
+    border-top: 60px solid transparent;
+    margin-top: -60px;
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding;
     background-clip: padding-box;
