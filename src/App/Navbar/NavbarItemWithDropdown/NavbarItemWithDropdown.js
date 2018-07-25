@@ -1,49 +1,16 @@
-import React, {Component} from 'react';
+import React from 'react';
+import "./NavbarItemWithDropdown.css";
 
-export default class NavbarItemWithDropdown extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            showDropdown: false
-        };
-    }
-
-    toggleDropdown() {
-        this.setState({showDropdown: !this.state.showDropdown});
-    }
-
-    hideDropdown(event) {
-        // only hide if the click event was outside the element
-        if (this.wrapperRef && !this.wrapperRef.contains(event.target)) {
-            this.setState({showDropdown: false});
-        }
-    }
-
-    componentDidMount() {
-        document.addEventListener("mousedown", this.hideDropdown.bind(this));
-    }
-
-    componentWillUnmount() {
-        document.removeEventListener("mousedown", this.hideDropdown.bind(this));
-    }
-
-    setWrapperRef(node) {
-        this.wrapperRef = node;
-    }
-
-    render() {
-        const {children, to, active, items} = this.props;
-        return (
-            <li className={`nav-item dropdown ${active ? "active" : ""}`}>
-                <a ref={this.setWrapperRef.bind(this)} className="nav-link dropdown-toggle" href={to}
-                   aria-haspopup="true" aria-expanded="false"
-                   onClick={this.toggleDropdown.bind(this)}>{children}</a>
-                <div className={`dropdown-menu ${this.state.showDropdown ? "show" : ""}`}>
-                    {items.map(([to, text]) => {
-                        return <a className="dropdown-item" key={text} href={to}>{text}</a>;
-                    })}
-                </div>
-            </li>
-        );
-    }
-}
+export default ({children, to, active, items}) => {
+    return (
+        <li className={`nav-item dropdown ${active ? "active" : ""}`}>
+            <a className="nav-link dropdown-toggle" href={to}
+               aria-haspopup="true" aria-expanded="false">{children}</a>
+            <div className="dropdown-menu">
+                {items.map(([to, text]) => {
+                    return <a className="dropdown-item" key={text} href={to}>{text}</a>;
+                })}
+            </div>
+        </li>
+    );
+};
