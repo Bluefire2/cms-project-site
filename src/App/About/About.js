@@ -3,7 +3,7 @@ import UseCase from "./UseCase";
 
 export default () => {
     return (
-        <div id="about" className="position-relative overflow-hidden p-3 p-md-5 text-center bg-light">
+        <div id="about" className="anchor-offset-section position-relative overflow-hidden p-3 p-md-5 text-center bg-light">
             <div className="col-12 col-lg-8 mx-auto">
                 <h4 className="display-4 font-weight-bold">ABOUT</h4>
                 <p>what <i>is</i> CMS?</p>

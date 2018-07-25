@@ -19,7 +19,7 @@ class Navbar extends Component {
     }
 
     render() {
-        // TODO: make the links work
+        // TODO: get the dropdown links working... I feel like using refs with a global state may be the only way :(
         // note that this will need to involve offsetting the page location to make space for the navbar
         return (
             <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-cms-primary">
@@ -34,12 +34,12 @@ class Navbar extends Component {
 
                 <div className={`navbar-collapse offcanvas-collapse ${this.state.navbarOpen ? "open" : ""}`} id="navbarsExampleDefault">
                     <ul className="navbar-nav ml-auto">
-                        <NavbarItem active={true} to={"#"}>About</NavbarItem>
+                        <NavbarItem active={true} to={"#about"}>About</NavbarItem>
                         <NavbarItemWithDropdown
-                            to={"#"}
+                            to={"#teams"}
                             items={[
-                                ["#", "Frontend"],
-                                ["#", "Backend"],
+                                ["#team-frontend", "Frontend"],
+                                ["#team-backend", "Backend"],
                                 ["#", "QA"]
                             ]}>Meet the Team</NavbarItemWithDropdown>
                         <NavbarItem to={"#"}>Get Involved</NavbarItem>

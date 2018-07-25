@@ -86,3 +86,13 @@ h1#cms-header {
         font-size: 4.5rem;
     }
 }
+
+/* I hate CSS so much because it makes me do things like this */
+.anchor-offset-section {
+    border-top: 50px solid transparent;
+    margin-top: -30px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    z-index: -1;
+}
