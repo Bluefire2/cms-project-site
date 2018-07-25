@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import md5 from "md5";
 
 export default class NavbarItemWithDropdown extends Component {
     constructor(props) {
@@ -41,7 +40,7 @@ export default class NavbarItemWithDropdown extends Component {
                    onClick={this.toggleDropdown.bind(this)}>{children}</a>
                 <div className={`dropdown-menu ${this.state.showDropdown ? "show" : ""}`}>
                     {items.map(([to, text]) => {
-                        return <a className="dropdown-item" key={md5(text)} href={to}>{text}</a>;
+                        return <a className="dropdown-item" key={text} href={to}>{text}</a>;
                     })}
                 </div>
             </li>
