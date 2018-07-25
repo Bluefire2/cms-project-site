@@ -5,7 +5,6 @@
   "homepage": "http://bluefire2.github.io/cms-project-site",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.1.1",
-    "@fortawesome/free-brands-svg-icons": "^5.1.0-11",
     "bootstrap": "^4.1.2",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3",
