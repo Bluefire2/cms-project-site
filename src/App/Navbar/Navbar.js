@@ -19,8 +19,7 @@ class Navbar extends Component {
     }
 
     render() {
-        // TODO: get the dropdown links working... I feel like using refs with a global state may be the only way :(
-        // note that this will need to involve offsetting the page location to make space for the navbar
+        // Note that the links work because of the anchor-offset-section class defined in App.css
         return (
             <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-cms-primary">
                 <a className="navbar-brand mx-auto mx-lg-0" href="#">
