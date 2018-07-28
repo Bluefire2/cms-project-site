@@ -68,3 +68,8 @@ body {
     background-clip: padding-box !important;
     /*z-index: -1;*/
 }
+
+.parallax-scroll {
+    background: no-repeat fixed center;
+    background-size: cover;
+}

@@ -17,6 +17,5 @@ h1#gi-header {
 }
 
 div#get-involved {
-    background: url("../../img/placeholder-bg.jpg") no-repeat fixed center;
-    background-size: cover;
+    background-image: url("../../img/placeholder-bg.jpg");
 }

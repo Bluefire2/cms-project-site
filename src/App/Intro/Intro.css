@@ -1,6 +1,5 @@
 div#intro {
-    background: url("../../img/placeholder-bg.jpg") no-repeat fixed center;
-    background-size: cover;
+    background-image: url("../../img/placeholder-bg.jpg");
 }
 
 h1#cms-header {
