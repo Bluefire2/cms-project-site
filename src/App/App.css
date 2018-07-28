@@ -63,8 +63,8 @@ body {
 .anchor-offset-section {
     border-top: 60px solid transparent;
     margin-top: -60px;
-    -webkit-background-clip: padding-box;
-    -moz-background-clip: padding;
-    background-clip: padding-box;
+    -webkit-background-clip: padding-box !important;
+    -moz-background-clip: padding !important;
+    background-clip: padding-box !important;
     /*z-index: -1;*/
 }
