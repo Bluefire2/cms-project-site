@@ -59,34 +59,6 @@ body {
     line-height: 1.5;
 }
 
-img#logo-image {
-    width: 2em;
-    height: 2em;
-}
-
-div#brand-container {
-    display: flex;
-    align-items: center;
-}
-
-h1#cms-header {
-    font-size: 1.7rem;
-}
-
-/* Small devices (landscape phones, 544px and up) */
-@media (min-width: 544px) {
-    h1#cms-header {
-        font-size: 2.7rem;
-    }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    h1#cms-header {
-        font-size: 4.5rem;
-    }
-}
-
 /* I hate CSS so much because it makes me do things like this */
 .anchor-offset-section {
     border-top: 60px solid transparent;
