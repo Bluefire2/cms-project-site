@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import Intro from "./Intro";
 import About from "./About";
 import Teams from "./Teams";
+import GetInvolved from "./GetInvolved";
 import {teams} from "../constants";
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
                 <Intro/>
                 <About/>
                 <Teams teams={teams}/>
+                <GetInvolved/>
             </div>
         );
     }
