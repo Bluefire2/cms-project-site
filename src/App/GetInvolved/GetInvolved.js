@@ -1,9 +1,12 @@
 import React, {Component} from 'react';
 import TechLogo from "./TechLogo";
 import java from "../../img/tech-logos/java.svg";
+import html from "../../img/tech-logos/html5.svg";
+import js from "../../img/tech-logos/js.svg";
+import db from "../../img/tech-logos/db.png";
 import "./GetInvolved.css";
 
-const techLogos = new Array(6).fill(java);
+const techLogos = [java, html, js, db];
 
 class GetInvolved extends Component {
     render() {

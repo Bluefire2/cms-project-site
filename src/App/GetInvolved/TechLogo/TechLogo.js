@@ -3,7 +3,7 @@ import "./TechLogo.css";
 
 export default ({logo}) => {
     return (
-        <div className="tech-logo col-6 col-md-3 col-lg-2">
+        <div className="tech-logo col-6 col-md-3 col-lg-2 col-centered">
             <img src={logo}/>
         </div>
     );
