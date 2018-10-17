@@ -4,7 +4,7 @@ import SocialLink from "./SocialLink";
 
 export default ({portrait, name, role, github, linkedin}) => {
     return (
-        <div className="col-12 col-md-6 col-lg-4 col-xl-3 p-2 p-md-3 p-lg-4">
+        <div className="col-12 col-md-6 col-lg-4 p-2 p-md-3 p-lg-4">
             <div className="team-member p-3">
                 <div className="row">
                     <div className="col-6">
