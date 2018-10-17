@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import "./TeamMember.css";
 import SocialLink from "./SocialLink";
 
-export default ({portrait, name, role, github, linkedin}) => {
+export default ({portrait, name, role, github, linkedin, website}) => {
     return (
         <div className="col-12 col-md-6 col-lg-4 p-2 p-md-3 p-lg-4">
             <div className="team-member p-3">
@@ -15,9 +15,11 @@ export default ({portrait, name, role, github, linkedin}) => {
                         <h6>{role}</h6>
                         <ul className="list-inline my-2">
                             {typeof github !== "undefined" &&
-                            <li className="list-inline-item"><SocialLink service="github" link={github}/></li>}
+                            <li className="list-inline-item"><SocialLink service="github" link={github} brand={true}/></li>}
                             {typeof linkedin !== "undefined" &&
-                            <li className="list-inline-item"><SocialLink service="linkedin" link={linkedin}/></li>}
+                            <li className="list-inline-item"><SocialLink service="linkedin" link={linkedin} brand={true}/></li>}
+                            {typeof website !== "undefined" &&
+                            <li className="list-inline-item"><SocialLink service="globe-americas" link={website}/></li>}
                         </ul>
                     </div>
                 </div>
