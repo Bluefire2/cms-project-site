@@ -17,7 +17,7 @@ class GetInvolved extends Component {
                     <h1 id="gi-header">Want to get involved?</h1>
                     <h6>CMS is a big project and there is always work to be done!</h6>
                 </div>
-                <div className="row">
+                <div className="row py-5">
                     {techLogos.map((logo, i) => <TechLogo logo={logo} key={i}/>)}
                 </div>
                 <h6>Above ^ list the tech stack, basically write something about how we need people with a wide range of skills</h6>
